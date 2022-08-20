@@ -1,0 +1,51 @@
+body{
+    background-image: url("siyat.jpeg");
+    
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 140px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+
+#timer{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    float: right;
+    font-size: 25px;
+    margin-right: 80px;
+}
+
+#score{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    float: left;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+canvas{
+
+    margin-top: 60px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{ box-shadow: 1px 1px 40px palevioletred ;}
+    to{box-shadow: 1px 1px 40px  white;}
+}
